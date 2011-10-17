@@ -12,9 +12,11 @@
 		#links a {color:#4c8099;text-decoration:none;text-shadow:1px 1px 1px #ccc;}
 		#links a:hover {color:#b38066;}
 		#octocal_box {text-align:center;}
-		#octocal_label {width:480px;height:20px;overflow:hidden;margin:0 auto 4em auto;text-align:right;color:#777;font-family:helvetica,arial,freesans,clean,sans-serif;font-size:16px;font-weight:bold;line-height:20px;vertical-align:baseline}
+		#octocal_label {width:480px;height:20px;overflow:hidden;margin:0 auto 4em auto;color:#777;font-family:helvetica,arial,freesans,clean,sans-serif;font-size:16px;font-weight:bold;line-height:20px;vertical-align:middle}
+		#octocal_label div {float:right;}
 		#octocal_label span {color:#333;}
-		#octocal_label a {width:20px;height:20px;margin:0;padding:0;display:inline-block;}
+		#octocal_label a {width:20px;height:20px;display:block;}
+		#github_icon {display:block;width:16px;height:16px;overflow:hidden;background-image:url("data:image/gif,GIF89a%10%00%10%00%A2%00%00%91%91%91%CB%CB%CB%AD%AD%ADxxx%EB%EB%EB%00%00%00%00%00%00%00%00%00!%F9%04%00%00%00%00%00%2C%00%00%00%00%10%00%10%00%00%03QH%BA%14%C1P%050%EA%00%2FR%C1%C4%85%00%16M%C0%12%0C%84%17%86%03'%12%A2gU%DC%A4%A0%C4%3C%3F%A8%7D%EA%95%07%C6%96%03%E2D%B8%DF%8C%93S%60%04%0F%19TRj%94V%95*%2C%03%2BM%B2N%ADs%F0%BD%9C%C4%26%8A%E5%151q%19%09%00%3B");}
 	</style>
 </head>
 <body>
@@ -31,7 +33,10 @@
 	</div>
 	<div id="octocal_box">
 		<p><img src="/img/octocal.png" width="480" height="480" alt="Octocal" /></p>
-		<p id="octocal_label">the <span>Octocal</span> <a href="http://octodex.github.com/"><img src="data:image/gif,GIF89a%14%00%14%00%A2%00%00%91%91%91%CB%CB%CB%ED%ED%ED%AD%AD%ADxxx%00%00%00%00%00%00%00%00%00!%F9%04%00%00%00%00%00%2C%00%00%00%00%14%00%14%00%00%03%5B(%BA%DC%FE0%B2%10d%0B%80h%02%AA%CC%83'%0C%5C%04t%0E%06%3C%011r'(%A0%0DJn%DA%20%60%8E%2B%E0%B8%8Ao%C1k%015%15%9A%82%F7%3B%FA%94%0A%9F%11%A7%FB9%3A%A1%17!%BB%5B%5DV1%8Dw%26b%9C%BAb%C5%19%92%C1%88%5Bc%88%7B%03%B5P%2C%F8%7C%3E%01%00%3B" width="20" height="20" alt="Octocats" /></a></p>
+		<div id="octocal_label">
+			<div>the <span>Octocal</span></div>
+			<div><a href="http://octodex.github.com/"><span id="github_icon">Official GitHub Octocats</span></a></div>
+		</div>
 	</div>
 </body>
 </html>
